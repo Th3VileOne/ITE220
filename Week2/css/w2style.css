@@ -1,8 +1,11 @@
 body {
 	font-family:  sans-serif;
+	background-image:url(../images/BackgroundTest2.png)
 	
 }
 .content {
+	color:#696;
+	font-weight:800;
 	text-align: center;
 	position: fixed;
 	top: 50%;
@@ -14,12 +17,28 @@ body {
 .content .title {
 	font-size: 2.5em;
 }
+.title{
+	color:#666;
+	font-weight:bold;
+	alignment-adjust:central;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.inner-content{
+	white-space:nowrap;
+	text-align:center;
+	
+	}
+.same-line{
+	display: inline-block;
+	}
 
 .content .content-container {
 	border-color: grey;
 	border-size: 1px; /* this allows you to adjust the thickness */
 	border-style: solid;
 	width: 470px;
+	border-radius: 10px;
 }
 
 .content .total-price {
@@ -40,10 +59,17 @@ body {
 	border-bottom: 1px solid #ccc;
 }
 .content .discount {
-  color: #c7254e;
+  color:#C30;
   background-color: #f9f2f4 !important;
   border-radius: 5px;
-  width: 100px;
-  position: fixed;
-  left: 40%;
-}
+  font-size:24px;
+  width: 200px;
+  height:35px;
+  margin-left:auto;
+  margin-right:auto;
+
+  }
+
+
+.container{
+	display:block;}
