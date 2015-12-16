@@ -7,3 +7,4 @@ $('#header').on('click', function() {
 	$('li:lt(3)').fadeIn(2000);
 });
 $('li.cool').hide();
+

@@ -37,8 +37,8 @@ $(function(){
 					
 					
 					$("#form-submit").on("click",function(){
-					var phone = $("form-number").val();
-						if($.isNumeric(phone)){
+					var phone = $("#form-number").val();
+						if(!$.isNumeric(phone)){
 							$(".error:first").show();
 							}
 							else{
@@ -46,7 +46,7 @@ $(function(){
 								}				
 						}
 					);
-					$("image-flip").flip(
+					$(".image-flip").flip(
 					{axis:'y',
 					trigger:'hover'
 						}
