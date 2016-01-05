@@ -47,7 +47,7 @@ $(function(){
 						// checck form for invalid phone number	^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 						var msg = $("#form-message").val();
 			//using indexOf to not equal [-1] in order to find whether String exists in form or not
-							if(msg.indexOf("bad words") != -1){
+							if(msg.indexOf("badwords") != -1){
 								$(".error:last").show();
 							}	else{
 								$(".error:last").hide();
