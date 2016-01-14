@@ -19,11 +19,12 @@ a{
 	text-decoration:none;
 	
 	}
-.city{
-	color: white;
+.city, .text{
+	color: black;
 	font-size:24px;
 	padding-left:8px;
 	padding-right:8px;
+	font-family:"circula Thin";
 	
 	}
 #cityContainer{
@@ -58,6 +59,16 @@ a{
 	margin-left:20%;
 	margin-right:20%;
 	margin-top:10%;
+	}
+a.city:active{
+	color: blue;
+	}
+a#units:visited{
+	color:black;
+	}
+
+a#units:active{
+	color:#FC0;
 	}
 
 
