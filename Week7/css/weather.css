@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+font-family:"circula Thin";
+src:"../fonts/circula-medium.otf";
+s}
+
+body{
+	background-image:url(../img/beautiful_mountain_scenery_hdr-wallpaper-1366x768.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+
+	}
+a{
+	font-family:"circula Thin";
+	font-size:20px;
+	text-decoration:none;
+	
+	}
+.city{
+	color: white;
+	font-size:24px;
+	padding-left:8px;
+	padding-right:8px;
+	
+	}
+#cityContainer{
+	
+	display: inline-block;
+	border-color:#09C;
+	border-style:solid;
+	margin-left: 20px;
+	margin-top: 25px;
+	border-radius:7px;
+	
+	}
+#units{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	}	
+
+
+#container{
+	font-family:"circula Thin";
+	color:#339;
+	margin-top:30px;
+	margin-left:20px;
+	font-size:36px;
+	font-weight:bold;
+	}
+
+#bodyContainer{
+	display:block;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:10%;
+	}
+
+
+	
