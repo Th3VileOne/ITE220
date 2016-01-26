@@ -16,7 +16,7 @@ $(".button1").on("click", function(){ //celsius buttton
 $(".button2").on("click", function(){//fahrenheit button
 	var reqUnit2 = $(".button2").html().toLowerCase();
 		//alert(reqUnit2);
-		selectedUnit = '&units=imperial';
+		selectedUnit = '&units=imperial'; 
 		$("a.city").fadeIn(1600);
 	});
 	
@@ -26,7 +26,7 @@ $(".button2").on("click", function(){//fahrenheit button
 		var city = this.text.toLowerCase();	
 			$.ajax({
 				type: 'GET',
-				url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + selectedUnit + '&appid=2de143494c0b295cca9337e1e96b00e0',
+				url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + selectedUnit + '&appid=3f12973bb7728cdbf393cd226bcd293f',
 				beforeSend: function(){ 								//first in the process
 				
 					} ,
@@ -49,3 +49,4 @@ $(".button2").on("click", function(){//fahrenheit button
 		
 		
 		}); //OUTTER FUNCTION
+
